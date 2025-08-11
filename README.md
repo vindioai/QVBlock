@@ -1,6 +1,6 @@
 ## 📖 Quantum Vision (QV) Theory in Deep Learning
 
-Inspired by quantum physics, **Quantum Vision (QV)** theory introduces a completely new perspective for object recognition in deep learning.  
+Inspired by quantum physics, **Quantum Vision (QV)** theory introduces a completely new perspective for object recognition using deep learning.  
 
 QV takes captured still images of objects and converts them into **information wave functions** using a deep learning module called the **QV Block**.  
 
