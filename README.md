@@ -15,6 +15,14 @@ These integrations produce **QV model variants** for object classification.
 - Enhances existing vision architectures by integrating the QV Block.
 - Demonstrated **consistent performance improvements** across multiple datasets compared to standalone models.
 
+### 📜 License
+
+This repository is licensed under the AGPL-3.0 License.
+
+If you use this work (code or models) in your research or other projects, you must release your derivative work openly under the same license.
+
+Closed-source or proprietary use is not permitted unless you have obtained an enterprise license from the Vindio AI Software Ltd, https://vindioai.com/ 
+
 ---
 
 ### 📄 Citation
@@ -34,10 +42,3 @@ If you use this work, please cite our paper:
   doi={10.1109/ACCESS.2025.3592037}
 }
 
-### 📜 License
-
-This repository is licensed under the AGPL-3.0 License.
-
-If you use this work (code or models) in your research or other projects, you must release your derivative work openly under the same license.
-
-Closed-source or proprietary use is not permitted unless you have obtained an enterprise license from the Vindio AI Software Ltd, https://vindioai.com/ 
