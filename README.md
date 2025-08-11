@@ -34,7 +34,7 @@ If you use this work, please cite our paper:
 
 ```bibtex
 @article{direkoglu2025quantum,
-  author={Direkoglu, Cem and Sah, Mehmet},
+  author={Direkoglu, Cem and Sah, Melike},
   title={Quantum Vision Theory in Deep Learning for Object Recognition},
   journal={IEEE Access},
   volume={13},
