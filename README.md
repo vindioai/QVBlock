@@ -18,7 +18,7 @@ These integrations produce **QV model variants** for object classification.
 
 ### 📜 License
 
-This repository is licensed under the AGPL-3.0 License.
+This repository is licensed under the **AGPL-3.0 License**.
 
 If you use this work (code or models) in your research or other projects, you must release your derivative work openly under the same license.
 
