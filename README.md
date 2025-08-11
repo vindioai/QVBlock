@@ -24,7 +24,6 @@ If you use this work (code or models) in your research or other projects, you mu
 
 Closed-source or proprietary use is not permitted unless you have obtained an enterprise license from the Vindio AI Software Ltd, https://vindioai.com/ 
 
----
 
 ### 📄 Citation
 If you use this work, please cite our paper:
@@ -32,7 +31,7 @@ If you use this work, please cite our paper:
 > **C. Direkoglu and M. Sah**, *"Quantum Vision Theory in Deep Learning for Object Recognition,"* IEEE Access, vol. 13, pp. 132194–132208, 2025.  
 > doi: [10.1109/ACCESS.2025.3592037](https://doi.org/10.1109/ACCESS.2025.3592037)
 
-```bibtex
+bibtex
 @article{direkoglu2025quantum,
   author={Direkoglu, Cem and Sah, Melike},
   title={Quantum Vision Theory in Deep Learning for Object Recognition},
@@ -42,4 +41,12 @@ If you use this work, please cite our paper:
   year={2025},
   doi={10.1109/ACCESS.2025.3592037}
 }
+
+
+
+### 🔬 QVBlock Architecture
+![Alt text](QVBlock.png)
+
+
+
 
