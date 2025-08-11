@@ -34,7 +34,7 @@ If you use this work, please cite our paper:
   doi={10.1109/ACCESS.2025.3592037}
 }
 
-📜 License
+### 📜 License
 
 This repository is licensed under the AGPL-3.0 License.
 
