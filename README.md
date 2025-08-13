@@ -23,7 +23,7 @@ You are free to use, modify, and share the code and models under the terms of th
 However, if you create any derivative works or deploy them (including via a network service), you must release your modifications and the full source code under the same AGPL-3.0 license.
 
 **Commercial / Closed-source Use**  
-If you want to integrate Quantum Vision Theory into a closed-source or proprietary product without releasing your source code, you must obtain an **Enterprise License** from he Vindio AI Software Ltd, https://vindioai.com/ 
+If you want to integrate Quantum Vision Theory into a closed-source or proprietary product without releasing your source code, you must obtain an **Enterprise License** from the Vindio AI Software Ltd, https://vindioai.com/ 
 
 📩 Contact: [info@vindioai.com] for Enterprise pricing and terms.
 
