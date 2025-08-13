@@ -19,14 +19,28 @@ These integrations produce **QV model variants** for object classification.
 ### 📜 License
 
 Quantum Vision Theory in Deep Learning for Object Recognition is licensed under the **AGPL-3.0** license for research and non-commercial use.  
-This means you are free to use, modify, and share the code or models under AGPL-3.0 terms. Meaning, you must release your derivative work openly under the same license.
-
+You are free to use, modify, and share the code and models under the terms of the AGPL-3.0 license.
+However, if you create any derivative works or deploy them (including via a network service), you must release your modifications and the full source code under the same AGPL-3.0 license.
 
 **Commercial / Closed-source Use**  
 If you want to integrate Quantum Vision Theory into a closed-source or proprietary product without releasing your source code, you must obtain an **Enterprise License** from he Vindio AI Software Ltd, https://vindioai.com/ 
 
 📩 Contact: [info@vindioai.com] for Enterprise pricing and terms.
 
+**License Summary**
+
+## Licensing Summary
+
+| Use Case                                   | Free? | Must Release Source Code? | License Type           |
+|--------------------------------------------|-------|---------------------------|------------------------|
+| Academic / research (non-commercial)       | ✅ Yes | ✅ Yes (if modified/distributed) | AGPL-3.0               |
+| Personal experiments / hobby projects      | ✅ Yes | ✅ Yes (if shared publicly) | AGPL-3.0               |
+| Open-source commercial product             | ✅ Yes | ✅ Yes                     | AGPL-3.0               |
+| Closed-source commercial product           | ❌ No  | ❌ No (with Enterprise License) | Enterprise License     |
+| Internal company tool (not public)         | ✅ Yes | ❌ No (but AGPL applies if deployed over a network) | AGPL-3.0 or Enterprise |
+
+**Key Point:** If you use Quantum Vision in a product or service and **do not** want to release your own source code under AGPL-3.0,  
+you **must** purchase an Enterprise License.
 
 ### 📄 Citation
 If you use this work, please cite our paper:
