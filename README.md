@@ -19,13 +19,13 @@ These integrations produce **QV model variants** for object classification.
 
 ## 🐍 Python Usage
 
-### Installation
+### 🛠️ Installation
 ```bash
 # Install via pip (will be available soon on PyPI)
 pip install vindioai
 
 ```
-### Integrating QVBlock into Your Deep Learning Model (Check the CNN, ViT and CvT integration codes for more details)
+### 🚀 Integrating QVBlock into Your Deep Learning Model (Check the CNN, ViT and CvT integration codes for more details)
 
 ```python
 import vindioai
