@@ -29,15 +29,12 @@ If you want to integrate Quantum Vision Theory into a closed-source or proprieta
 
 **License Summary**
 
-## Licensing Summary
-
 | Use Case                                   | Free? | Must Release Source Code? | License Type           |
 |--------------------------------------------|-------|---------------------------|------------------------|
 | Academic / research (non-commercial)       | ✅ Yes | ✅ Yes (if modified/distributed) | AGPL-3.0               |
 | Personal experiments / hobby projects      | ✅ Yes | ✅ Yes (if shared publicly) | AGPL-3.0               |
 | Open-source commercial product             | ✅ Yes | ✅ Yes                     | AGPL-3.0               |
 | Closed-source commercial product           | ❌ No  | ❌ No (with Enterprise License) | Enterprise License     |
-| Internal company tool (not public)         | ✅ Yes | ❌ No (but AGPL applies if deployed over a network) | AGPL-3.0 or Enterprise |
 
 **Key Point:** If you use Quantum Vision in a product or service and **do not** want to release your own source code under AGPL-3.0,  
 you **must** purchase an Enterprise License.
