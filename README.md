@@ -15,6 +15,60 @@ These integrations produce **QV model variants** for object classification.
 - Converts image data into information wave functions.
 - Enhances existing vision architectures by integrating the QV Block.
 - Demonstrated **consistent performance improvements** across multiple datasets compared to standalone models.
+- Easy Python API for quick experimentation
+
+## 🐍 Python Usage
+
+### Installation
+```bash
+# Install via pip (will be available soon on PyPI)
+pip install vindioai
+
+```
+### Integrating QVBlock into Your Deep Learning Model (Check the CNN, ViT and CvT integration codes for more details)
+
+```python
+import vindioai
+from vindioai import QVBlock
+
+# default wave is 128. For more computationally efficient training, wave values can be reduced to 64, 32, 16, 8
+wave=128
+
+# For small image size (64, 64 , 3) use momentum_direction of either [1] or [1, 2].
+#[1] creates 4 parallel branches, while [1, 2] created 8 parallel branches
+
+# For large image sizes (224, 224 , 3) use momentum_direction of either [2] or [2, 4]
+#[2] creates 4 parallel branches, while [2, 4] created 8 parallel branches
+
+momentum_direction=np.array([1, 2])
+
+# Get QV Block
+QV_block = QVBlock(momentum_direction=momentum_direction, input_shape=(64, 64, 3), conv_layers=3, waves=wave)
+
+inputs = QV_block.input
+infowave = QV_block.output
+
+# QV_block is now ready to be integrated into your deep learning model
+
+#..... Add your layers such as
+# QV INFORMATION WAVES FEED TO A CNN ARCHITECTURE OR VIT OR CvT, CNN example below
+
+convafter1 = Conv2D(128, (3, 3), padding='same', activation=None,
+             use_bias=True, name='convafter1')(infowave)
+
+#...
+
+output = Dense(10, activation = 'softmax')(flat)
+
+model = Model(inputs=inputs, outputs=output)
+
+# Must initialize and freeze the weight learning for shift and subtract conv layers of the QVBlock
+model=initialize_and_freeze_weights_shiftsubtract_conv_layers(model, wave, momentum_direction=momentum_direction)
+
+# Now compile your model as usual
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+```
 
 ### 📜 License
 
