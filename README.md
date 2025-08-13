@@ -29,7 +29,7 @@ pip install vindioai
 
 ```python
 import vindioai
-from vindioai import QVBlock
+from vindioai import QVBlock, Init_Freeze_ShiftSubtract_Layers
 
 # default wave is 128. For more computationally efficient training, wave values can be reduced to 64, 32, 16, 8
 wave=128
@@ -62,8 +62,8 @@ output = Dense(10, activation = 'softmax')(flat)
 
 model = Model(inputs=inputs, outputs=output)
 
-# Must initialize and freeze the weight learning for shift and subtract conv layers of the QVBlock
-model=initialize_and_freeze_weights_shiftsubtract_conv_layers(model, wave, momentum_direction=momentum_direction)
+# Must initialize and freeze the weight learning for QVBlock shift and subtract conv layers
+model=Init_Freeze_ShiftSubtract_Layers(model, wave, momentum_direction=momentum_direction)
 
 # Now compile your model as usual
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
