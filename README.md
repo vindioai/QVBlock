@@ -18,11 +18,14 @@ These integrations produce **QV model variants** for object classification.
 
 ### 📜 License
 
-This repository is licensed under the **AGPL-3.0 License**.
+Quantum Vision Theory in Deep Learning for Object Recognition is licensed under the **AGPL-3.0** license for research and non-commercial use.  
+This means you are free to use, modify, and share the code or models under AGPL-3.0 terms. Meaning, you must release your derivative work openly under the same license.
 
-If you use this work (code or models) in your research or other projects, you must release your derivative work openly under the same license.
 
-Closed-source or proprietary use is not permitted unless you have obtained an enterprise license from the Vindio AI Software Ltd, https://vindioai.com/ 
+**Commercial / Closed-source Use**  
+If you want to integrate Quantum Vision Theory into a closed-source or proprietary product without releasing your source code, you must obtain an **Enterprise License** from he Vindio AI Software Ltd, https://vindioai.com/ 
+
+📩 Contact: [info@vindioai.com] for Enterprise pricing and terms.
 
 
 ### 📄 Citation
