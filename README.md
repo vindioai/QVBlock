@@ -17,7 +17,7 @@ These integrations produce **QV model variants** for object classification.
 - Demonstrated **consistent performance improvements** across multiple datasets compared to standalone models.
 - Easy Python API for quick experimentation
 
-## 🐍 Python Usage
+## Python Usage
 
 ### 🛠️ Installation
 ```bash
