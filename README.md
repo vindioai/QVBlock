@@ -21,7 +21,7 @@ These integrations produce **QV model variants** for object classification.
 
 ### 🛠️ Installation
 ```bash
-# Install via pip (will be available soon on PyPI)
+# Install via pip 
 pip install vindioai
 
 ```
