@@ -34,16 +34,16 @@ from vindioai import QVBlock, Init_Freeze_ShiftSubtract_Layers
 # default wave is 128. For more computationally efficient training, wave values can be reduced to 64, 32, 16, 8
 wave=128
 
-# For small image size (64, 64 , 3) use momentum_direction of either [1] or [1, 2].
+# For small image size (64, 64 , 3) use momentum_magnitude of either [1] or [1, 2].
 #[1] creates 4 parallel branches, while [1, 2] created 8 parallel branches
 
-# For large image sizes (224, 224 , 3) use momentum_direction of either [2] or [2, 4]
+# For large image sizes (224, 224 , 3) use momentum_magnitude of either [2] or [2, 4]
 #[2] creates 4 parallel branches, while [2, 4] created 8 parallel branches
 
-momentum_direction=np.array([1, 2])
+momentum_magnitude=np.array([1, 2])
 
 # Get QV Block
-QV_block = QVBlock(momentum_direction=momentum_direction, input_shape=(64, 64, 3), conv_layers=3, waves=wave)
+QV_block = QVBlock(momentum_magnitude=momentum_magnitude, input_shape=(64, 64, 3), conv_layers=3, waves=wave)
 
 inputs = QV_block.input
 infowave = QV_block.output
@@ -63,7 +63,7 @@ output = Dense(10, activation = 'softmax')(flat)
 model = Model(inputs=inputs, outputs=output)
 
 # Must initialize and freeze the weight learning for QVBlock shift and subtract conv layers
-model=Init_Freeze_ShiftSubtract_Layers(model, wave, momentum_direction=momentum_direction)
+model=Init_Freeze_ShiftSubtract_Layers(model, wave, momentum_magnitude=momentum_magnitude)
 
 # Now compile your model as usual
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
