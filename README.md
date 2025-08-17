@@ -7,7 +7,7 @@ QV takes captured still images of objects and converts them into **information w
 The QV Block can be integrated into:
 - Convolutional Neural Networks (CNNs)
 - Vision Transformers (ViTs)
-- Convolutional Vision Transformers (CvTs)
+- Convolutional Vision Transformers (CCTs)
 
 These integrations produce **QV model variants** for object classification.
 
@@ -25,7 +25,7 @@ These integrations produce **QV model variants** for object classification.
 pip install vindioai
 
 ```
-### 🚀 Integrating QVBlock into Your Deep Learning Model (Check the CNN, ViT and CvT integration codes for more details)
+### 🚀 Integrating QVBlock into Your Deep Learning Model (Check the CNN, ViT and CCT integration codes for more details)
 
 ```python
 import vindioai
@@ -74,7 +74,7 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 
 ### 📜 License
 
-Quantum Vision Theory in Deep Learning for Object Recognition is licensed under the **AGPL-3.0** license for research and non-commercial use.  
+Quantum Vision Theory in Deep Learning is licensed under the **AGPL-3.0** license for research and non-commercial use.  
 You are free to use, modify, and share the code and models under the terms of the AGPL-3.0 license.
 However, if you create any derivative works or deploy them (including via a network service), you must release your modifications and the full source code under the same AGPL-3.0 license.
 
