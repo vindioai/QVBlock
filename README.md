@@ -116,6 +116,6 @@ bibtex
 ![Alt text](QVBlock.png)
 
 
-![Alt text](QVBlock Architecture -momentum magnitude [1, 2] - wave 128 - 3 conv layers in branches.png)
+Check how the QVBlock architecture looks like by downloading the architecture image from the main branch.
 
 
