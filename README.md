@@ -50,8 +50,10 @@ infowave = QV_block.output
 
 # QV_block is now ready to be integrated into your deep learning model
 
-#..... Add your layers such as
-# QV INFORMATION WAVES FEED TO A CNN ARCHITECTURE OR VIT OR CvT, CNN example below
+# QV INFORMATION WAVES FEED TO A CNN ARCHITECTURE OR VIT OR CCT
+
+# Check sample codes for QV-CNN-Heavy and QV-ViT-8-8 on how to integrate QVBlock to your deep learning models
+# CNN example below
 
 convafter1 = Conv2D(128, (3, 3), padding='same', activation=None,
              use_bias=True, name='convafter1')(infowave)
