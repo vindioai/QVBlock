@@ -111,11 +111,15 @@ bibtex
 }
 
 
+### 📄 Technical Support / Consultancy
+If you need any technical support, tutorial, or consultancy on how to train your QV model variants on your dataset or application, please contact us at
+📩 Contact: [vindioai@gmail.com] and also CC [info@vindioai.com] for more details.
+
 
 ### 🔬 QVBlock Architecture
 ![Alt text](QVBlock.png)
 
 
-Check how the QVBlock architecture looks like by downloading the architecture image from the main branch.
+🔬 Check how the QVBlock architecture looks like by downloading the architecture image from the main branch.
 
 
