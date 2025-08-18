@@ -25,7 +25,7 @@ These integrations produce **QV model variants** for object classification.
 pip install vindioai
 
 ```
-### 🚀 Integrating QVBlock into Your Deep Learning Model (Check the CNN, ViT and CCT integration codes for more details)
+### 🚀 Integrating QVBlock into Your Deep Learning Model (Check Sample Codes for QV-CNN-Heavy, QV-ViT-8-8 for more details)
 
 ```python
 import vindioai
@@ -50,9 +50,8 @@ infowave = QV_block.output
 
 # QV_block is now ready to be integrated into your deep learning model
 
-# QV INFORMATION WAVES FEED TO A CNN ARCHITECTURE OR VIT OR CCT
+# In QV-CNN-Heavy(CIFAR-10).py and QV-ViT-8-8(CIFAR-10).py sample codes, you can see how QV INFORMATION WAVES can be feed to your deep learning model
 
-# Check sample codes for QV-CNN-Heavy and QV-ViT-8-8 on how to integrate QVBlock to your deep learning models
 # CNN example below
 
 convafter1 = Conv2D(128, (3, 3), padding='same', activation=None,
@@ -71,6 +70,17 @@ model=Init_Freeze_ShiftSubtract_Layers(model, wave, momentum_magnitude=momentum_
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 ```
+
+### 🚀 Try QVBlock on Your Dataset 
+
+Check Sample Codes for QV-CNN-Heavy(CIFAR-10).py and QV-ViT-8-8(CIFAR-10).py in the main branch.
+
+Here instead of loading the CIFAR-10, load your dataset from a local drive or from an online resource.
+
+In the deep learning model, adjust the number of classes in the softmax layer and then train your model.
+
+Optimize your QV hyperparameters, momentum_magnitude, conv_layers, waves if needed! 
+
 
 ### 📜 License
 
