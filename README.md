@@ -105,7 +105,12 @@ If you want to integrate Quantum Vision Theory into a closed-source or proprieta
 **Key Point:** If you use Quantum Vision in a product or service and **do not** want to release your own source code under AGPL-3.0,  
 you **must** purchase an Enterprise License.
 
-### 📄 Citation
+### 📄 Documentation and Citation
+
+More details about the Quantum Vision Theory in Deep Learning can be found in our paper at:
+
+https://ieeexplore.ieee.org/abstract/document/11091286
+
 If you use this work, please cite our paper:
 
 > **C. Direkoglu and M. Sah**, *"Quantum Vision Theory in Deep Learning for Object Recognition,"* IEEE Access, vol. 13, pp. 132194–132208, 2025.  
