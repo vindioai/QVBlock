@@ -140,14 +140,14 @@ If you need any technical support, tutorial, or consultancy on how to train your
 🔬 Check how the QVBlock architecture looks like by downloading the architecture image from the main branch.
 
 
-# 📖 Quantum Vision (QV) – Docker Image
+### 📖 Quantum Vision (QV) – Docker Image
 
-### Pull Image
+#### Pull Image
 ```bash
 docker pull vindioai/qvblock:0.2.4
 ```
 
-### Run a Smoke Test
+#### Run a Smoke Test
 ```bash
 docker run --rm vindioai/qvblock:0.2.4
 ```
@@ -161,7 +161,7 @@ QVBlock OK
 
 ---
 
-## 📦 Available Tags
+#### 📦 Available Tags
 - `vindioai/qvblock:0.2.4` –  Build  
 - `vindioai/qvblock:latest` – Latest build   
 
