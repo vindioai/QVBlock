@@ -140,7 +140,7 @@ If you need any technical support, tutorial, or consultancy on how to train your
 🔬 Check how the QVBlock architecture looks like by downloading the architecture image from the main branch.
 
 
-### 📖 QVBlock – Docker Image
+### 📖 QVBlock – Docker Image is Available
 
 #### Pull Image
 ```bash
@@ -152,7 +152,7 @@ docker pull vindioai/qvblock:0.2.4
 docker run --rm vindioai/qvblock:0.2.4
 ```
 
-Expected output:
+#### Expected output
 ```
 QVBlock model name: QVblock
 QVBlock OK
