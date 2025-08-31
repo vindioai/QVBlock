@@ -140,7 +140,7 @@ If you need any technical support, tutorial, or consultancy on how to train your
 🔬 Check how the QVBlock architecture looks like by downloading the architecture image from the main branch.
 
 
-### 📖 Quantum Vision (QV) – Docker Image
+### 📖 QVBlock – Docker Image
 
 #### Pull Image
 ```bash
